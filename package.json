@@ -1,0 +1,47 @@
+{
+    "title": "SkillCademy",
+    "name": "SkillCademy",
+    "version": "1.0.0",
+    "scripts": {
+        "deploy": "gh-pages -d dist",
+        "start": "gulp watch"
+    },
+    "description": "SkillCademy an online Education site for students.",
+    "keywords": [
+        "SkillCademy",
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://kkthecompguy.github.io/SkillCademy",
+    "license": "MIT",
+    "author": "kkthecompguy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kkthecompguy/SkillCademy.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.7.2",
+        "bootstrap": "4.3.1",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1",
+        "magnific-popup": "^1.1.0",
+        "gh-pages": "^2.0.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "del": "^3.0.0",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.1",
+        "merge-stream": "^1.0.1"
+    }
+}
