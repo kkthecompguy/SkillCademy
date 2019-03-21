@@ -236,6 +236,11 @@ header.masthead h2 {
   }
 }
 
+span .text-lg{
+  font-size: 2rem;
+  color: red;
+}
+
 .portfolio-modal .portfolio-modal-dialog {
   padding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
